@@ -79,7 +79,7 @@ y_train_t=torch.from_numpy(Y.astype(np.int64))
 train_data=Data.TensorDataset(X_train_t,y_train_t)
 train_loader=Data.DataLoader(
     dataset=train_data,
-    batch_size=64,
+    batch_size=1024,
     shuffle=True,
     num_workers=0,
 )
