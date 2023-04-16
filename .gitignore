@@ -1,3 +1,6 @@
 NKU_Template/
 /*/report
 *.png
+*.jpg
+*.pdf
+/*/*.ipynb
